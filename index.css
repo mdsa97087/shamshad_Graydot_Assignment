@@ -1,0 +1,38 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.container {
+      /* border: 2px solid black; */
+      width: 98vw;
+      height: auto;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin:100px auto;
+      justify-content: center;
+      text-align: center;
+
+}
+
+.box {
+      border: 2px solid #333;
+      width: 45vw;
+      height: auto;
+      border-radius: 12px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+}
+
+img {
+      width: 150px;
+}
+
+
+.imageDiv:hover {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
